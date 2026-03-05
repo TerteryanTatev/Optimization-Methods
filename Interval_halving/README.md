@@ -149,4 +149,4 @@ plt.show()
 
 This visualization shows how the interval shrinks toward the minimum point and illustrates convergence of the dichotomy method.
 
-! [Dichotomy Method](images/interval_halving.png)
+! [Dichotomy Method](images/Interval_halving.png)
