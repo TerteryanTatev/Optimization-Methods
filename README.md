@@ -2,6 +2,7 @@
 
 This repository contains Python implementations of classical **1D optimization methods** for finding the minimum of unimodal functions.  
 It includes methods such as 
+
 **1.Enumeration (Grid Search),**
 
 **2.Dichotomy (Interval Halving),**
