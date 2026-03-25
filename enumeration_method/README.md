@@ -77,34 +77,6 @@ The maximum possible error is
 6. Choose the smallest value
 ```
 
----
-
-## Python Implementation
-
-```python
-import sympy as sp
-import matplotlib.pyplot as plt
-
-x = sp.symbols('x')
-f = (1/4) * x**4 + x**2 - 8*x + 12
-
-a, b = 0, 2
-eps = 0.5
-
-n = int((b - a) / eps)
-
-points = []
-
-for i in range(n + 1):
-    xi = a + i * (b - a) / n
-    yi = f.subs(x, xi)
-    points.append((xi, yi))
-
-minimum = min(points, key=lambda p: p[1])
-
-print("Sampled points:", points)
-print("Approximate minimum:", minimum)
-```
 
 ---
 
